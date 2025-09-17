@@ -13,10 +13,10 @@ class   StatusUpdatePublisher(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = f'Exploding in {self.i} seconds'
+        msg.data = f'Exploding in {self.i}'
         self.publisher_.publish(msg)
 
-        self.get_logger().info(f'Published "{msg.data}"')
+        self.get_logger().info(f'Published "{msg.data}" seconds')
         self.i += 1
 
 def main(args=None):

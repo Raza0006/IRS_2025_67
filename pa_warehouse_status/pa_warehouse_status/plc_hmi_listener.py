@@ -4,7 +4,7 @@ from std_msgs.msg import String
 
 class   StatusUpdateSubscriber(Node):
     def __init__(self):
-        super().__init__('StatusUpdateListener')  # initialise node with name of the node
+        super().__init__('StatusUpdateSubscriber')  # initialise node with name of the node
         self.subscription = self.create_subscription(
             String,
             '/status_updates',
