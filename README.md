@@ -6,6 +6,11 @@ To let me run ros2
 source /opt/ros/humble/local_setup.bash
 ```
 
+To let me run my packages
+```bash
+source install/setup.bash
+```
+
 To open rqt_image_view
 ```bash
 ros2 run rqt_image_view rqt_image_view
