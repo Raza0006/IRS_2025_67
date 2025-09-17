@@ -1,0 +1,22 @@
+[0.592s] Invoking command in '/IRS_2025_67/pa_warehouse_status': PYTHONPATH=/IRS_2025_67/build/pa_warehouse_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/IRS_2025_67/install/pa_warehouse_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pa_warehouse_status build --build-base /IRS_2025_67/build/pa_warehouse_status/build install --record /IRS_2025_67/build/pa_warehouse_status/install.log --single-version-externally-managed install_data
+[0.780s] running egg_info
+[0.780s] writing ../build/pa_warehouse_status/pa_warehouse_status.egg-info/PKG-INFO
+[0.781s] writing dependency_links to ../build/pa_warehouse_status/pa_warehouse_status.egg-info/dependency_links.txt
+[0.781s] writing entry points to ../build/pa_warehouse_status/pa_warehouse_status.egg-info/entry_points.txt
+[0.781s] writing requirements to ../build/pa_warehouse_status/pa_warehouse_status.egg-info/requires.txt
+[0.782s] writing top-level names to ../build/pa_warehouse_status/pa_warehouse_status.egg-info/top_level.txt
+[0.783s] reading manifest file '../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'
+[0.784s] adding license file 'LICENSE'
+[0.784s] writing manifest file '../build/pa_warehouse_status/pa_warehouse_status.egg-info/SOURCES.txt'
+[0.785s] running build
+[0.785s] running build_py
+[0.785s] running install
+[0.785s] running install_lib
+[0.786s] running install_data
+[0.787s] running install_egg_info
+[0.788s] removing '/IRS_2025_67/install/pa_warehouse_status/lib/python3.10/site-packages/pa_warehouse_status-0.0.0-py3.10.egg-info' (and everything under it)
+[0.789s] Copying ../build/pa_warehouse_status/pa_warehouse_status.egg-info to /IRS_2025_67/install/pa_warehouse_status/lib/python3.10/site-packages/pa_warehouse_status-0.0.0-py3.10.egg-info
+[0.790s] running install_scripts
+[0.813s] Installing pineapple_gossip_bot script to /IRS_2025_67/install/pa_warehouse_status/lib/pa_warehouse_status
+[0.814s] writing list of installed files to '/IRS_2025_67/build/pa_warehouse_status/install.log'
+[0.841s] Invoked command in '/IRS_2025_67/pa_warehouse_status' returned '0': PYTHONPATH=/IRS_2025_67/build/pa_warehouse_status/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/IRS_2025_67/install/pa_warehouse_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pa_warehouse_status build --build-base /IRS_2025_67/build/pa_warehouse_status/build install --record /IRS_2025_67/build/pa_warehouse_status/install.log --single-version-externally-managed install_data
