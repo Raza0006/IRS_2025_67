@@ -51,6 +51,15 @@ def generate_launch_description():
         ]
     )
 
+        #hswaypointfollower 
+    hs_waypoint_follower = Node(
+        package='hand_solo_virtual_nav',   
+        executable='hs_waypoint_follower', 
+        name='hs_waypoint_follower',        
+        output='screen',
+        parameters=[{'use_sim_time': use_sim_time}]
+    )
+
     # AMCL - Lifecycle Node
     amcl = LifecycleNode(
         package='nav2_amcl',
@@ -206,6 +215,7 @@ def generate_launch_description():
         map_server,
         amcl,
         lifecycle_manager_localization,
+        hs_waypoint_follower,
         
         # Navigation Stack
         controller_server,
